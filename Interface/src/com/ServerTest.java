@@ -10,9 +10,9 @@ public class ServerTest {
 //		System.out.println("sub "+ss.sub(200, 50));
 //		ss.ownMethod();
 		Team1 team1 = new Server();	// creating object and assigning in interface reference. 
-		System.out.println("Team1 "+team1.add(100, 200));
+		System.out.println("Team1 "+team1.add(500, 200));
 	
-		//System.out.println("Team1 "+team1.sub(200,40));
+		//System.out.println("Team1 "+team1.sub(500,40));
 		Team2 team2 = new Server();
 		System.out.println("Team2 "+team2.sub(100, 20));
 	}
